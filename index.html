@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<form action=""method="">
+    <label for="username">Username:</label>
+    <!-- labels --> 
+<input type="text" id="username" placeholder="Spongebob"minlength="6" maxlength="15" required>
+<br>
+<label for="Password">Password:</label>
+<input type="Password" id="Password"minlength="6" maxlength="15" required placeholder="Bikini Bottom"><br>
+
+<label for="Email">Email:</label>
+<input type="Email" id="Email" placeholder="Ssquarepants@gmail.com">
+<br>
+<label for="Phone">Phone:</label>
+<input type="Phone" placeholder="999-999-999" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+<br>
+<label for="Birthday">Birthday</label>
+<input type="Date" id="Birthday">
+<br>
+<label for="Quantity">Quantity:</label>
+<input type="Number" id="Quantity" minlength="0" maxlength="99">
+<br> 
+<label for="Title">Title:</label>
+
+<label for="Mr.">Mr.</label>
+<input type="radio" id="Mr." value="Mr.">  
+<label for="Ms.">Ms.</label>
+<input type="radio" id="Ms." value="Ms.">  
+<label for="PhD">PhD</label>
+<input type="radio" id="PhD" value="PhD">  
+
+<br>
+<!-- Buttons to press after typing username -->
+
+<!-- Dropdown menu -->
+<label for="payment">payment</label>
+<select name="" id="Payment">
+<option value="Visa">Visa</option>
+<option value="MasterCard">MasterCard</option>
+<option value="Giftcard">Giftcard</option>
+</select>
+
+<label for="Subscribe">Subscribe</label>
+<input type="Checkbox" id="Subscribe"> <br>
+ 
+<label for="Comment">Comment</label>
+<textarea name="Comment" id="Comment" cols="25" rows="3"></textarea>
+
+<label for="file">File:</label>
+<input type="file" name="file" id="file">
+
+<br>
+<input type="reset">
+<input type="submit">
+</form>
+
+
+
+    
+</body>
+</html>
